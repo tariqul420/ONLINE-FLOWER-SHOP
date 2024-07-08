@@ -255,3 +255,118 @@ body {
 }
 
 /* 25% off ends hear */
+
+/* instagram section start hear */
+.instagram-container {
+    max-height: 522px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+
+.instagram-text {
+    width: 594px;
+    height: 132px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.instagram-text h3 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.instagram-text p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.instagram-image {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.instagram-image img {
+    border-radius: 10px;
+}
+
+/* instagram section ends hear */
+
+/* subcribe section start hear */
+.subcribe-container {
+    width: 1440px;
+    height: 449px;
+    border: 8px;
+    background-image: url(../images/latest-deals-bg.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 128px;
+}
+
+.subcribe-content {
+    width: 866px;
+    height: 206px;
+    margin: 0 auto;
+    padding-top: 122px;
+}
+
+.subcribe-content h2 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.subcribe-content p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 16px;
+    padding-bottom: 48px;
+}
+
+.subcribe-content input {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.subcribe-content input::placeholder{
+padding-left: 22px;
+font-weight: bold;
+font-size: 20px;
+}
+.subcribe-content input:focus{
+    outline: 0;
+}
+.subcribe-content button {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* subcribe section ends hear */
