@@ -78,12 +78,13 @@ body {
 
 /* header ends hear */
 
-main {
+
+/* featured-flowers start hear */
+.featured-flowers-container {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-/* featured-flowers start hear */
 .featured-flowers-text {
     width: 594px;
     margin: 0 auto;
@@ -160,4 +161,48 @@ main {
     text-decoration-line: underline;
     margin-bottom: 128px;
 }
+
 /* featured-flowers ends hear */
+
+/* delivary start hear */
+.delivery-container {
+    max-width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-bottom: 128px;
+    margin: 0 auto;
+    margin-bottom: 178px;
+}
+
+.delivery-content {
+    width: 1090px;
+    height: 147px;
+    display: flex;
+    text-align: center;
+    padding-top: 86px;
+}
+
+.section {
+    width: 33.33%;
+}
+
+/* delivary ends hear */
+
+/* 25% off start hear */
+.hot-deal {
+    max-width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 0 auto;
+    margin-bottom: 178px;
+    display: flex;
+}
+.hot-deal-text-content{
+    width: 60%;
+}
+.hot-deal-img-content{
+    width: 40%;
+}
+/* 25% off ends hear */
