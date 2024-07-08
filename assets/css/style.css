@@ -181,6 +181,7 @@ body {
     display: flex;
     text-align: center;
     padding-top: 86px;
+    margin-left: 175px;
 }
 
 .section {
@@ -199,10 +200,58 @@ body {
     margin-bottom: 178px;
     display: flex;
 }
-.hot-deal-text-content{
+
+.hot-deal-text-content {
     width: 60%;
 }
-.hot-deal-img-content{
-    width: 40%;
+
+.hot-deal-text-content h2 {
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 230px;
 }
+
+.hot-deal-text-content h2 span {
+    color: rgb(229, 84, 115);
+}
+
+.hot-deal-text-content p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    width: 594px;
+    margin-bottom: 24px;
+}
+
+.hot-deal-text-content button {
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    width: 177px;
+    height: 64px;
+    text-align: center;
+    border: none;
+    margin-left: 450px;
+}
+
+
+.hot-deal-img-content {
+    width: 40%;
+    margin-top: 100px;
+}
+
 /* 25% off ends hear */
