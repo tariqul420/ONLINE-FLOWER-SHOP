@@ -32,11 +32,9 @@ body {
 
 .header-text-content h1 {
     color: rgb(39, 39, 39);
-    font-family: Lato;
     font-size: 80px;
     font-weight: 800;
     line-height: 96px;
-    letter-spacing: 0%;
     text-align: left;
     width: 708px;
     height: 288px;
@@ -45,11 +43,9 @@ body {
 
 .header-text-content p {
     color: rgba(39, 39, 39, 0.6);
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0%;
     text-align: left;
     width: 634px;
     height: 90px;
@@ -58,11 +54,9 @@ body {
 
 .header-text-content button {
     color: rgb(255, 255, 255);
-    font-family: Lato;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0%;
     text-align: left;
     border-radius: 8px;
     background: rgb(229, 84, 115);
@@ -206,7 +200,6 @@ body {
 }
 
 .hot-deal-text-content h2 {
-    font-family: Lato;
     font-size: 40px;
     font-weight: 800;
     line-height: 48px;
@@ -221,7 +214,6 @@ body {
 
 .hot-deal-text-content p {
     color: rgba(39, 39, 39, 0.6);
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -233,7 +225,6 @@ body {
 
 .hot-deal-text-content button {
     color: rgb(255, 255, 255);
-    font-family: Lato;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -273,7 +264,6 @@ body {
 
 .instagram-text h3 {
     color: rgb(39, 39, 39);
-    font-family: Lato;
     font-size: 40px;
     font-weight: 800;
     line-height: 48px;
@@ -322,7 +312,6 @@ body {
 
 .subcribe-content h2 {
     color: rgb(39, 39, 39);
-    font-family: Lato;
     font-size: 40px;
     font-weight: 800;
     line-height: 48px;
@@ -330,7 +319,6 @@ body {
 
 .subcribe-content p {
     color: rgba(39, 39, 39, 0.6);
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -348,14 +336,17 @@ body {
     font-size: 20px;
     padding-left: 20px;
 }
-.subcribe-content input::placeholder{
-padding-left: 22px;
-font-weight: bold;
-font-size: 20px;
+
+.subcribe-content input::placeholder {
+    padding-left: 22px;
+    font-weight: bold;
+    font-size: 20px;
 }
-.subcribe-content input:focus{
+
+.subcribe-content input:focus {
     outline: 0;
 }
+
 .subcribe-content button {
     width: 150px;
     height: 64px;
@@ -363,10 +354,55 @@ font-size: 20px;
     background: rgb(229, 84, 115);
     border: none;
     color: rgb(255, 255, 255);
-    font-family: Lato;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
 }
 
 /* subcribe section ends hear */
+
+/* footer section start hear */
+#footer {
+    max-width: 1922px;
+    height: 449px;
+    background: rgb(17, 16, 16);
+    margin: 0 auto;
+}
+
+.footer-text {
+    margin: 0 auto;
+    width: 625px;
+    padding-top: 128px;
+}
+
+.footer-text h2 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.footer-text h2 span {
+    color: rgb(229, 84, 115);
+}
+
+.pra1 {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.pra2 {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+}
+
+/* footer section ends hear */
